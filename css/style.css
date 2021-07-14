@@ -1,0 +1,46 @@
+.custom-header{
+    background-color: #242021;
+}
+
+.custom-header img{
+    height: 50px;
+}
+.custom-text{
+    color:hsl(0, 0%, 100%);
+    padding: 3px 10px;
+    font-size: 25px;
+    display: inline-block;
+}
+
+.custom-text:hover{
+    color: orange;
+}
+
+
+.custom-nav{
+    background-color: #232f3e !important;
+}
+
+.custom-img{
+/* height: 200px; */
+}
+.img-zoom{
+    overflow: hidden;
+}
+.img-zoom img{
+    transition: all 1.5s;
+    height: 200px !important;
+}
+.img-zoom:hover img{
+    transform: scale(1.25);
+}
+
+footer{
+    background-color: #232f3e;
+}
+
+footer h5, footer a{
+    color: #ffff !important;
+    text-decoration: underline;
+}
+
